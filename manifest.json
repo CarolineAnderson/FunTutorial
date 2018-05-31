@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,     //required
+"version": "1.0",               //required
+"name": "Hello World!",   //required
+"description": "Learning how to make a chrome extension!",
+"icons": {
+    	"16": "images/puppy16.png",
+    	"48": "images/puppy48.png",
+    	"128": "images/puppy.png"
+    },
+"browser_action":
+	{
+	"default_icon": "images/puppy.png",
+    "default_popup": "popup.html"
+	}
+}
+
